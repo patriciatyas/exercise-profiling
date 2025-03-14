@@ -14,11 +14,16 @@ Patricia Herningtyas - 2306152241 - Class A
 
 ![log file test plan 1.jpg](../../Users/user/OneDrive/COLLEGE/Adpro/module-5%20testing%20screenshots/log%20file%20test%20plan%201.jpg)
 
+![average before 1.jpg](../../Users/user/OneDrive/COLLEGE/Adpro/module-5%20testing%20screenshots/average%20before%201.jpg)
+
+
 2. `/all-student-name` endpoint
 
 ![before test plan 2.jpg](../../Users/user/OneDrive/COLLEGE/Adpro/module-5%20testing%20screenshots/before%20test%20plan%202.jpg)
 
 ![log file test plan 2.jpg](../../Users/user/OneDrive/COLLEGE/Adpro/module-5%20testing%20screenshots/log%20file%20test%20plan%202.jpg)
+
+![average before 2.jpg](../../Users/user/OneDrive/COLLEGE/Adpro/module-5%20testing%20screenshots/average%20before%202.jpg)
 
 3. `/highest-gpa` endpoint
 
@@ -26,19 +31,36 @@ Patricia Herningtyas - 2306152241 - Class A
 
 ![log file test plan 3.jpg](../../Users/user/OneDrive/COLLEGE/Adpro/module-5%20testing%20screenshots/log%20file%20test%20plan%203.jpg)
 
+![average before 3.jpg](../../Users/user/OneDrive/COLLEGE/Adpro/module-5%20testing%20screenshots/average%20before%203.jpg)
+
+
 #### After Optimization
 1. `/all-student` endpoint
 
 ![after test plan 1.jpg](../../Users/user/OneDrive/COLLEGE/Adpro/module-5%20testing%20screenshots/after%20test%20plan%201.jpg)
 
+![average after 1.jpg](../../Users/user/OneDrive/COLLEGE/Adpro/module-5%20testing%20screenshots/average%20after%201.jpg)
+
+
 2. `/all-student-name` endpoint
 
 ![after test plan 2.jpg](../../Users/user/OneDrive/COLLEGE/Adpro/module-5%20testing%20screenshots/after%20test%20plan%202.jpg)
+
+![average after 2.jpg](../../Users/user/OneDrive/COLLEGE/Adpro/module-5%20testing%20screenshots/average%20after%202.jpg)
+
 
 3. `/highest-gpa` endpoint
 
 ![after test plan 3.jpg](../../Users/user/OneDrive/COLLEGE/Adpro/module-5%20testing%20screenshots/after%20test%20plan%203.jpg)
 
+![average after 3.jpg](../../Users/user/OneDrive/COLLEGE/Adpro/module-5%20testing%20screenshots/average%20after%203.jpg)
+
+
+Berdasarkan hasil uji performa yang dilakukan, terjadi peningkatan efisiensi yang signifikan setelah optimasi diterapkan:
+- Pada Test Plan 1, waktu eksekusi berkurang dari 119.611 menjadi 3.947, yang menunjukkan peningkatan efisiensi sekitar 96,7%.
+- Pada Test Plan 2, waktu eksekusi sebelum optimasi adalah 5.954, sedangkan setelah optimasi turun drastis menjadi 63, menghasilkan peningkatan efisiensi sekitar 98,9%.
+- Pada Test Plan 3, waktu eksekusi yang semula 113 berkurang menjadi 23, menunjukkan peningkatan efisiensi sekitar 79,6%.
+Hasil ini membuktikan bahwa optimasi yang dilakukan mampu secara signifikan mengurangi waktu eksekusi dan meningkatkan performa aplikasi.
 
 ### Reflection
 

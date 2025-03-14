@@ -82,12 +82,15 @@ Menurut saya, data *profiling* sulit untuk dibaca karena hasil profiling bisa me
 Selain itu, mengoptimalkan tanpa merusak fungsionalitas juga merupakan salah satu tantangan yang saya hadapi. Perubahan kode untuk optimasi bisa menyebabkan *bug*. Solusi dari hal ini adalah selalu jalankan *unit test* dan *integration test* setelah perubahan.
 
 **Manfaat menggunakan IntelliJ Profiler**
+
 Dengan menggunakan IntelliJ Profiler, saya dapat menganalisis performa kode secara akurat, pemantauan CPU real-time untuk menemukan *method* yang lambat, serta integrasi dengan IntelliJ IDEA sehingga mudah digunakan. 
 
 **Cara mengatasi hasil profiling yang tidak konsisten dengan JMeter**
+
 Jika hasil IntelliJ Profiler dengan JMeter tidak konsisten, hal yang akan saya lakukan adalah memeriksa kembali konfigurasi yang telah saya *set-up* pada JMeter dan memeriksa kembali hasil profiling yang saya dapat dari InteliiJ Profiler. Jika masih tidak konsisten, saya akan menggunakan *stack overflow* untuk mencari solusinya.
 
 **Strategi optimasi kode setelah pengujian performa & profiling**
+
 Pada *method* `joinStudentNames()`, penggunaan StringBuilder dapat menggantikan penggabungan string dengan operator "+" yang kurang efisien. Dengan StringBuilder, proses penggabungan nama mahasiswa menjadi lebih efisien karena kita hanya mengelola satu objek yang dapat dimodifikasi.
 Untuk *method* `findStudentWithHighestGpa()`, implementasi Java Stream dapat menyederhanakan kode dan meningkatkan kinerja dengan memanfaatkan fungsi max() bersama Comparator untuk menemukan mahasiswa dengan GPA tertinggi dalam satu kali proses.
 Pada metode `getAllStudentsWithCourses()`, prealokasi kapasitas ArrayList berdasarkan estimasi jumlah data dapat menghindari operasi resize yang mahal, sementara implementasi query database secara massal (bulk query) untuk mengambil semua data mahasiswa dan kursus dalam jumlah minimum panggilan database dapat mengurangi overhead jaringan yang signifikan.
